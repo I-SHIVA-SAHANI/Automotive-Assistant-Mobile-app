@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "566967451106",
+    "project_id": "automotiveassistantfinal",
+    "storage_bucket": "automotiveassistantfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566967451106:android:6b60a75e9c8bd5cd59cdbb",
+        "android_client_info": {
+          "package_name": "com.example.automotiveassistantfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566967451106-de24rbgu444406n6qld9tv3419i6smr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGw60mxFclcxVqAU5-meIxIxTCG91_cPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566967451106-de24rbgu444406n6qld9tv3419i6smr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

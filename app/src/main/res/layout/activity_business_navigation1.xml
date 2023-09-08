@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Business.BusinessNavigation1"
+    android:padding="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/creeate"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/createbusiness" />
+
+            <Button
+
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/creeate"
+                android:backgroundTint="@color/greyIshWhite"
+                android:fontFamily="@font/changa_bold"
+                android:onClick="callCreateBusiness"
+                android:text="Create Business"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/editbusiness" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/edit"
+                android:backgroundTint="@color/greyIshWhite"
+                android:fontFamily="@font/changa_bold"
+                android:text="Edit Business"
+                android:onClick="Edit"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp">
+
+            <ImageView
+                android:id="@+id/feedback"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/feedback" />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="17dp"
+                android:layout_toRightOf="@+id/feedback"
+                android:backgroundTint="@color/greyIshWhite"
+                android:fontFamily="@font/changa_bold"
+                android:text="Feedback"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

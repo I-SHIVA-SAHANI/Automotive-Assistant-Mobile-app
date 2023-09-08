@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/logowhite" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/bankrus"
+            android:text="Automotive"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bankrus"
+            android:text="Assistant"
+            android:textAlignment="center"
+            android:textColor="#FF7575"
+            android:textSize="45sp"
+            android:textStyle="bold|italic"
+            android:gravity="center_horizontal" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/B1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="@font/actor"
+                android:onClick="CallBsLogin"
+                android:text="Business LOGIN"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                app:backgroundTint="@color/greyIshWhite" />
+
+            <Button
+                android:id="@+id/B2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:fontFamily="@font/actor"
+                android:onClick="CallUsLogin"
+                android:text="User   Login"
+                android:textColor="@color/black"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:transitionName="transition_Login"
+                app:backgroundTint="#ECECEC" />
+
+            <Button
+                android:id="@+id/B3"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="80dp"
+                android:layout_marginLeft="-250dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/actor"
+                android:onClick="WorkButton"
+                android:text="HOW WE WORK??"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:background="#00000000" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
